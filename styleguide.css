@@ -2,19 +2,47 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
-@layer styleguide {
 
-    /* Schrijf hier de verschillende stijlen, die
-       gedeeld gaan worden door jullie projecten */
+   @layer styleguide{
 
-    /* Kleuren */
-    .color-example {
-        background-color: #bada55;
-    }
+   
+
+:root {
+   /* kleuren */
+    --background-color: #FFFFFF;
+    --accentcolor: #E0B000;
+    --textcolor: black;
+    --formcolor: #466EBF;
+    --secondarycolor: #F9F2D4;
+    --accentcolor: #B2291F;
+    --accentcolor: #AA2677;
+    --background-color: #F6F5F5;
+
 
     /* Typografie */
+
+  --font-family-body: "parkinsans", sans-serif;
+  --headidng-font-weight:500; 
+
+  /* headings*/
+  --h1-size: 40px;
+  --h2-size: 20px;
+  --h3-size: 18px;
+
+  --p-size: 16px;
+  --line-height: 16px;
 
 
     /* Formulier elementen */
 
+   }
+}
+
+h1 {
+    font-size: var(--h1-size);
+    font-family: var(--font-family-body);
+}
+
+p {
+    line-height: var(--line-height);
 }
