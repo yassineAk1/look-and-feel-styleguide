@@ -10,13 +10,13 @@
 :root {
    /* kleuren */
     --background-color: #FFFFFF;
+    --background-color-secondary: #F6F5F5;
     --accentcolor: #E0B000;
-    --textcolor: black;
+    --textcolor: #000000;
     --formcolor: #466EBF;
-    --secondarycolor: #F9F2D4;
-    --accentcolor: #B2291F;
-    --accentcolor: #AA2677;
-    --background-color: #F6F5F5;
+    --footercolor: #F9F2D4;
+    --accent-primary: #B2291F;
+    --accent-secondary: #AA2677;
 
 
     /* Typografie */
@@ -46,3 +46,18 @@ h1 {
 p {
     line-height: var(--line-height);
 }
+
+.color {
+
+  color: white;
+  font-family: var(--font-family-body);
+}
+
+.color-background { background-color: var(--background-color); color: black; }
+.color-background-secondary { background-color: var(--background-color-secondary); color: black; }
+.color-accentcolor { background-color: var(--accentcolor); }
+.color-accent-primary { background-color: var(--accent-primary); }
+.color-accent-secondary { background-color: var(--accent-secondary); }
+.color-textcolor { background-color: var(--textcolor); }
+.color-formcolor { background-color: var(--formcolor); }
+.color-footercolor { background-color: var(--footercolor); color: black; }
