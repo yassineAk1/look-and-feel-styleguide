@@ -53,11 +53,11 @@ p {
   font-family: var(--font-family-body);
 }
 
-.color-background { background-color: var(--background-color); color: black; }
+.color-background { background-color: var(--background-color); color: var(--textcolor);}
 .color-background-secondary { background-color: var(--background-color-secondary); color: black; }
 .color-accentcolor { background-color: var(--accentcolor); }
 .color-accent-primary { background-color: var(--accent-primary); }
 .color-accent-secondary { background-color: var(--accent-secondary); }
 .color-textcolor { background-color: var(--textcolor); }
 .color-formcolor { background-color: var(--formcolor); }
-.color-footercolor { background-color: var(--footercolor); color: black; }
+.color-footercolor { background-color: var(--footercolor); color: var(--textcolor);}
