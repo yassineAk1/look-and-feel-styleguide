@@ -49,12 +49,16 @@ h1 {
 
 p {
     line-height: var(--line-height);
+}
+ 
+.button1{
+  border-radius: 10px;
+  width: 60px;
+  background-color: black;
+  color: white;
+}
     
 }
-
-
-
-
 .color-background {
   background-color: var(--background-color);
   color: var(--textcolor);
