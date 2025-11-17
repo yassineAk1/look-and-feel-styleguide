@@ -58,7 +58,7 @@ p {
   color: white;
 }
     
-}
+
 .color-background {
   background-color: var(--background-color);
   color: var(--textcolor);
@@ -95,5 +95,4 @@ p {
   color: var(--textcolor);
 }
 
-  
 }
