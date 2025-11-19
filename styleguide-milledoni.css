@@ -3,12 +3,17 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 
-   @layer styleguide{
+@layer styleguide {
 
-   
+  @font-face {
+    font-family: 'Parkinsans';
+    src: url('/fonts/Parkinsans.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
 
-:root {
-   /* kleuren */
+  :root {
+    /* kleuren */
     --background-color: #FFFFFF;
     --background-color-secondary: #F6F5F5;
     --accentcolor: #E0B000;
@@ -21,78 +26,78 @@
 
     /* Typografie */
 
-  --font-family-body: "parkinsans", sans-serif;
-  --headidng-font-weight:500; 
+    --font-family: "Parkinsans", sans-serif;
+    --headidng-font-weight: 500;
 
-  /* headings*/
-  --h1-size: 40px;
-  --h2-size: 20px;
-  --h3-size: 18px;
+    /* headings*/
+    --h1-size: 40px;
+    --h2-size: 20px;
+    --h3-size: 18px;
 
-  --p-size: 16px;
-  --line-height: 16px;
+    --p-size: 16px;
+    --line-height: 16px;
 
 
     /* Formulier elementen */
 
-   }
+  }
 
 
-body {
-  font-family: var(--font-family-body);
-}
+  body {
+    font-family: var(--font-family);
+  }
 
-h1 {
+  h1 {
     font-size: var(--h1-size);
-    font-family: var(--font-family-body);
-}
+    font-family: var(--font-family);
+  }
 
-p {
+  p {
     line-height: var(--line-height);
-}
- 
-.button1{
-  border-radius: 10px;
-  width: 60px;
-  background-color: black;
-  color: white;
-}
-    
+  }
 
-.color-background {
-  background-color: var(--background-color);
-  color: var(--textcolor);
-}
+  .button1 {
+    border-radius: 10px;
+    width: 60px;
+    background-color: black;
+    color: white;
+  }
 
-.color-background-secondary {
-  background-color: var(--background-color-secondary);
-  color: var(--textcolor);
-}
 
-.color-accentcolor {
-  background-color: var(--accentcolor);
-}
+  .color-background {
+    background-color: var(--background-color);
+    color: var(--textcolor);
+  }
 
-.color-accent-primary {
-  background-color: var(--accent-primary);
-}
+  .color-background-secondary {
+    background-color: var(--background-color-secondary);
+    color: var(--textcolor);
+  }
 
-.color-accent-secondary {
-  background-color: var(--accent-secondary);
-}
+  .color-accentcolor {
+    background-color: var(--accentcolor);
+  }
 
-.color-textcolor {
-  background-color: var(--textcolor);
-  color:var(--background-color);
-}
+  .color-accent-primary {
+    background-color: var(--accent-primary);
+  }
 
-.color-formcolor {
-  background-color: var(--formcolor);
-}
+  .color-accent-secondary {
+    background-color: var(--accent-secondary);
+  }
 
-.color-footercolor {
-  background-color: var(--footercolor);
-  color: var(--textcolor);
-}
+  .color-textcolor {
+    background-color: var(--textcolor);
+    color: var(--background-color);
+  }
+
+  .color-formcolor {
+    background-color: var(--formcolor);
+  }
+
+  .color-footercolor {
+    background-color: var(--footercolor);
+    color: var(--textcolor);
+  }
 
 }
