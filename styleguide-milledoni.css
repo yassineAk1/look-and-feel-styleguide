@@ -7,7 +7,7 @@
 
   @font-face {
     font-family: 'Parkinsans';
-    src: url('/fonts/Parkinsans.woff') format('woff');
+    src: url('fonts/Parkinsans.woff') format('woff');
     font-weight: 400;
     font-style: normal;
   }
@@ -27,7 +27,7 @@
     /* Typografie */
 
     --font-family: "Parkinsans", sans-serif;
-    --headidng-font-weight: 500;
+    --heading-font-weight: 500;
 
     /* headings*/
     --h1-size: 40px;
