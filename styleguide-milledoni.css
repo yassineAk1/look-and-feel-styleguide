@@ -31,7 +31,7 @@
 
     /* headings*/
     --h1-size: 40px;
-    --h2-size: 20px;
+    --h2-size: 24px;
     --h3-size: 18px;
 
     --p-size: 16px;
@@ -47,14 +47,28 @@
     font-family: var(--font-family);
   }
 
-  h1 {
+  .font-xxl {
     font-size: var(--h1-size);
     font-family: var(--font-family);
   }
 
-  p {
-    line-height: var(--line-height);
+  .font-xl {
+    font-size: var(--h2-size);
+    font-family: var(--font-family);
   }
+
+    .font-l {
+    font-size: var(--h3-size);
+    font-family: var(--font-family);
+  }
+
+  .font-normal {
+    line-height: var(--line-height);
+    font-family: var(--font-family);
+    font-size: var(--p-size);
+  }
+
+
 
   .button1 {
     border-radius: 10px;
