@@ -57,7 +57,7 @@
     font-family: var(--font-family);
   }
 
-    .font-l {
+  .font-l {
     font-size: var(--h3-size);
     font-family: var(--font-family);
   }
@@ -76,6 +76,29 @@
     background-color: black;
     color: white;
   }
+
+  .addbutton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    background-color: #D39926;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .addbutton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.addbutton img {
+  width: 30px;
+  height: 30px;
+}
 
 
   .color-background {
