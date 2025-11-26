@@ -18,7 +18,7 @@
     --background-color-secondary: #F6F5F5;
     --accentcolor: #E0B000;
     --textcolor: #000000;
-    --secondry-text--color: #898A8D;
+    --secondary-text--color: #898A8D;
     --formcolor: #466EBF;
     --footercolor: #F9F2D4;
     --accent-primary: #B2291F;
@@ -132,7 +132,7 @@
   }
 
     .secondary-text-color {
-    background-color: var(--secondry-text--color);
+    background-color: var(--secondary-text--color);
   }
 
   .color-textcolor {
