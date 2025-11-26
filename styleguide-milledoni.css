@@ -18,6 +18,7 @@
     --background-color-secondary: #F6F5F5;
     --accentcolor: #E0B000;
     --textcolor: #000000;
+    --secondry-text--color: #898A8D;
     --formcolor: #466EBF;
     --footercolor: #F9F2D4;
     --accent-primary: #B2291F;
@@ -50,16 +51,21 @@
   .font-xxl {
     font-size: var(--h1-size);
     font-family: var(--font-family);
+    line-height: var(--line-height);
   }
 
   .font-xl {
     font-size: var(--h2-size);
     font-family: var(--font-family);
+    line-height: var(--line-height);
+
   }
 
   .font-l {
     font-size: var(--h3-size);
     font-family: var(--font-family);
+    line-height: var(--line-height);
+
   }
 
   .font-normal {
@@ -88,19 +94,19 @@
     text-decoration: none;
     font-weight: 600;
     width: fit-content;
-   height: fit-content;
+    height: fit-content;
   }
 
   .addbutton:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-}
+    transform: translateY(-3px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
 
 
-.addbutton img {
-  width: 30px;
-  height: 30px;
-}
+  .addbutton img {
+    width: 30px;
+    height: 30px;
+  }
 
 
   .color-background {
@@ -123,6 +129,10 @@
 
   .color-accent-secondary {
     background-color: var(--accent-secondary);
+  }
+
+    .secondary-text-color {
+    background-color: var(--secondry-text--color);
   }
 
   .color-textcolor {
